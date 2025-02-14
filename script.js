@@ -1,7 +1,7 @@
 const yesButton = document.querySelector("#yesButton");
 const noButton = document.querySelector("#noButton");
 const dispImg = document.querySelector("#displayImg");
-const subTxt = document.querySelector("#subText");
+const subTxt = document.querySelector(".subText");
 
 let noHover = 0;
 let goodIndex = 0;
