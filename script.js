@@ -1,6 +1,7 @@
 const yesButton = document.querySelector("#yesButton");
 const noButton = document.querySelector("#noButton");
 const dispImg = document.querySelector("#displayImg");
+const subTxt = document.querySelector("#subText");
 
 let noHover = 0;
 let goodIndex = 0;
@@ -38,7 +39,6 @@ function moveElemRandom(elem) {
     }
 
     noHover += 1;
-    console.log(noHover)
 }
 
 
@@ -85,6 +85,8 @@ yesButton.addEventListener("click", function (e) {
     let dy = (Math.random() - 0.5) * 60;
 
     images.push({ img, x, y, dx, dy });
+
+    subTxt.innerHtml = "I Knew You Love Me Too <3";
 })
 
 function moveImages() {
