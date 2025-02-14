@@ -86,7 +86,7 @@ yesButton.addEventListener("click", function (e) {
 
     images.push({ img, x, y, dx, dy });
 
-    subTxt.innerHtml = "I Knew You Love Me Too <3";
+    subTxt.innerHTML = "I Knew You Love Me Too <3";
 })
 
 function moveImages() {
